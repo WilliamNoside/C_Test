@@ -40,7 +40,8 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "algorithm": "cpp",
-        "hallo_calculater_3cpp": "c"
+        "hallo_calculater_3cpp": "c",
+        "iomanip": "cpp"
     },
     "code-runner.runInTerminal": true,
     "C_Cpp.errorSquiggles": "disabled"
