@@ -6,7 +6,7 @@
 int main(){
     std::string name;
     int age;
-    int HP;
+    int HP; 
     int MP;
     int SPD;
     int MONEY;
@@ -15,6 +15,10 @@ int main(){
     int ITEM;
     char s;
     srand(time(NULL));
+
+    /*
+    这里规定了变量
+    */
 
     while(name.empty()){
         std::cout << "输入你的名字\n" ;
