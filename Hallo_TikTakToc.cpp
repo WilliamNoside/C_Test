@@ -40,7 +40,6 @@ int main()
         }
     }
     std::cout << "感谢游玩！\n";
-
     return 0;
 }
 
