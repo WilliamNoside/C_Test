@@ -22,7 +22,7 @@ int main(){
 
     while(name.empty()){
         std::cout << "输入你的名字\n" ;
-        std::getline(std::cin , name);
+        v
     }
     
     do{
