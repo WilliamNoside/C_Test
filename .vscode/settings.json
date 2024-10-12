@@ -41,7 +41,16 @@
         "variant": "cpp",
         "algorithm": "cpp",
         "hallo_calculater_3cpp": "c",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "regex": "cpp",
+        "__hash_table": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "optional": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
     },
     "code-runner.runInTerminal": true,
     "C_Cpp.errorSquiggles": "disabled"
