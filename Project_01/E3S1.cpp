@@ -25,6 +25,7 @@ _
           \  \ `-.   \_\_`. _.'_/_/  -' _.' /
 ===========`-.`___`-.__\ \___  /__.-'_.'_.-'================
                          =---=
+
                         代码不报错
                         程序没问题
                         用户体验好
@@ -53,6 +54,7 @@ _
 - 必须使用 assign, find and append
 
 实现
+- 使用数组
 - 定义一个数组，长度为11，用于计数各个等级的数量
 - 定义一个变量，用于记录非数字个数
 - 输入字符串，并分割字符串
@@ -113,23 +115,18 @@ int main() {
     }
 
     // 输出结果
-    std::cout << "X:" << grades[0] 
-              << ", A:" << grades[1]
-              << ", B:" << grades[2] 
-              << ", C:" << grades[3] 
-              << ", D:" << grades[4] 
-              << ", E:" << grades[5] 
-              << ", F:" << grades[6]
-              << ", G:" << grades[7] 
-              << ", H:" << grades[8] 
-              << ", I:" << grades[9] 
-              << ", J:" << grades[10] 
-              << std::endl;
+    std::cout << "\n++++++++++++++++++++++++++++++++++++++++ Results ++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
+    std::cout << "| Grade |   X   |   A   |   B   |   C   |   D   |   E   |   F   |   G   |   H   |   I   |   J   |" << std::endl;
+    std::cout << "|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|" << std::endl;
+    std::cout << "| Count |   " << grades[0] << "   |   " << grades[1] << "   |   " << grades[2] << "   |   " << grades[3] 
+              << "   |   " << grades[4] << "   |   " << grades[5] << "   |   " << grades[6] << "   |   " 
+              << grades[7] << "   |   " << grades[8] << "   |   " << grades[9] << "   |   " << grades[10] << "   |" << std::endl;
+    std::cout << "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
     if (invalid > 0) {
         std::cout << "Invalid input count:" << invalid << std::endl;
         std::cout << "Please make sure your input is an integer between 0 and 100." << std::endl;
+        std::cout << "++++++++++++++++++++++++++++" << std::endl;
     } // 输出非数字个数
-    std::cout << "**************************" << std::endl;
     
     return 0;
 }
