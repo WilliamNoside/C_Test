@@ -96,11 +96,7 @@ int main() {
                 int num = std::stoi(number);
                 // 判断数字大小
                 if (num >= 0 && num <= 100) {
-                    if (num == 100) {
-                        grades[0]++;
-                    }else {
-                        grades[10 - num / 10]++; // 90-99
-                    }
+                    grades[10 - num / 10]++; 
                 }else{
                     invalid ++; // 记录非数字个数
                 }
