@@ -22,13 +22,15 @@ int main(){
 
     while(name.empty()){
         std::cout << "输入你的名字\n" ;
-        v
+        std::cin >> name;
     }
     
     do{
         std::cout << "输入你的年龄\n" ;
         std::cin >> age;
-    }while(age <= 0);
+    }while(age <= 0){
+        std::cout << "年龄必须大于0，请重新输入\n" ;
+    }
 
     std::cout << "欢迎来到江湖游戏，" << name << "少侠\n" ;
     std::cout << "你" << age << "岁\n" ;
